@@ -9,5 +9,5 @@ int main(void)
     int temp = *t;
     *t = *s;
     *s = temp;
-    printf("now x = %i, y = %i", x, y);
+    printf("now x = %i, y = %i\n", x, y);
 }
