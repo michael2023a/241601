@@ -2,8 +2,9 @@
 
 int main(void)
 {
-    int x = 1, y = 3;
+    int x = 5, y = 66;
     printf("x = %i, y = %i\n", x, y);
+    // use pointer to swap
     int *t = &x, *s = &y;
     int temp = *t;
     *t = *s;
