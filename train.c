@@ -3,11 +3,12 @@
 int main(void)
 {
     int x = 5, y = 66;
+
     printf("x = %i, y = %i\n", x, y);
     // use pointer to swap
     int *t = &x, *s = &y;
     int temp = *t;
     *t = *s;
     *s = temp;
-    printf("now x = %i, y = %i", x, y);
+    printf("now x = %i, y = %i\n", x, y);
 }
