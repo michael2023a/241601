@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    int x = 5, y = 66;
+    int x = 5, y = 3;
     printf("x = %i, y = %i\n", x, y);
     // use pointer to swap
     int *t = &x, *s = &y;
